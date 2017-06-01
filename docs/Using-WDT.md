@@ -37,7 +37,7 @@ This sample can be built using [Maven](#building-with-maven).
 2.  Right-click on this folder, and select *Copy path to Clipboard*
 3.  Select menu *File -> Import -> Maven -> Existing Maven Projects*
 4.  In the Root Directory textbox, Paste in the repository directory.
-5.  Select *Browse...* button and select *Finish* (confirm it finds 3 pom.xml files)
+5.  Select *Browse...* button and select *Finish* 
 6.  This will create a project in Eclipse: async-jaxrs
 
 :star: *Note:* If you did not use Eclipse/WDT to clone the git repository, follow from step 3, but navigate to the cloned repository directory rather than pasting its name in step 4.
@@ -56,17 +56,5 @@ This sample can be built using [Maven](#building-with-maven).
 Pre-requisite: [Download WAS Liberty](docs/Downloading-WAS-Liberty.md)
 
 For the purposes of this sample, we will create the Liberty server (step 3 in the wasdev.net instructions) a little differently to create and customize a Runtime Environment that will allow the server to directly use the configuration in the `async-jaxrs-wlp` project.
-
-###### Create a Runtime Environment in Eclipse
-
-1. Open the 'Runtime Explorer' view:
-    * *Window -> Show View -> Other*
-    * type `runtime` in the filter box to find the view (it's under the Server heading).
-2. Right-click in the view, and select *New -> Runtime Environment*
-3. Give the Runtime environment a name, e.g. `wlp-2015.6.0.0` if you're using the June 2015 beta.
-4. Either:
-    * Select an existing installation (perhaps what you downloaded earlier, if you followed those instructions), or
-    * select *Install from an archive or a repository* to download a new Liberty archive.
-5. Follow the prompts (and possibly choose additional features to install) until you *Finish* creating the Runtime Environment
 
 

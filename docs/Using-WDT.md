@@ -49,4 +49,3 @@ This sample can be built using [Maven](#building-with-maven).
 3. Right-click the project and select **Run As > Run on Server**.
 4. You should see the following message in the console: `Application async-jaxrs started in XX.XX seconds.`
 5. Confirm web browser opens on "http://localhost:9081/jaxrs-async/" with 5 hyperlinks to run samples
-

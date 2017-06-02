@@ -48,7 +48,6 @@ This sample can be built using [Maven](#building-with-maven).
 2. Right-click the project and select **Run As > Maven Install**.
 3. Right-click the project and select **Run As > Run on Server**.
 4. You should see the following message in the console: `Application async-jaxrs started in XX.XX seconds.`
-5. Confirm web browser opens on "http://localhost:9081/jaxrs-async/" with 5 hyperlinks to run samples
 
 :star: *Note:* Some versions of WDT incorrectly map the cdi-1.2 dependency to the CDI 1.0 Facet, which prevents the *Run As ...* operation in step 3 from succeeding. If this happens, Right-click on the `async-jaxrs` project, and select *Properties*, then select *Project Facets* in the left-hand pane. Change the the "Context and dependency injection (CDI)" facet to use version 1.2, at which point, step 3 (above) should work.
 

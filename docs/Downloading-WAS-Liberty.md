@@ -1,4 +1,4 @@
-There are lots of ways to get your hands on WAS Liberty. Note that you will need a version of Liberty that has support for JAX-RS 2.0, CDI 1.2, EJB Lite 3.2, and Concurrency Utilities for this sample (Java EE 7 Web Profile will do).
+There are lots of ways to get your hands on WAS Liberty. Note that you will need a version of Liberty that has support for JAX-RS 2.0, CDI 1.2, EJB Lite 3.2, and Concurrency Utilities for this sample (Java EE 7 will do).
 
 To download just the WAS Liberty runtime, go to the [wasdev.net Downloads page][wasdev], and choose between the [latest version of the runtime][wasdev-latest] or the [latest beta][wasdev-beta]. You can also download Liberty via [Eclipse and WDT](/docs/Downloading-WAS-Liberty.md)
 

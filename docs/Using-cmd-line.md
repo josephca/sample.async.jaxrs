@@ -24,12 +24,6 @@ Use the following steps to run the application with Maven:
     ```bash
     $ mvn clean install
     ```
-    
-    If you want to also run the functional tests then you need to [Download WAS Liberty](/docs/Downloading-WAS-Liberty.md) and pass in the location of your install as the system property libertyRoot:
-
-    ```bash
-    $ mvn -DlibertyRoot=<LibertyInstallLocation> install
-    ```
 
 2. To run the server with the Servlet sample execute:
     ```bash
@@ -39,7 +33,5 @@ Use the following steps to run the application with Maven:
 
 * `run-server` runs the server in the foreground.
 * `start-server` runs the server in the background. 
-
-3. Confirm web browser opens on "http://localhost:9081/jaxrs-async/" with 5 hyperlinks to run samples
 
 [Liberty Maven Plug-in]: https://github.com/WASdev/ci.maven
